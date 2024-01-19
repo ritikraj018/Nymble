@@ -1,0 +1,56 @@
+PostMan Urls
+
+1. To book a package:
+
+Url -> Your localhost + "/add"
+
+Arguments - Raw JSON
+Example -     
+    {
+        "customerId":11,
+        "name": "Ritik",
+        "balance":100,
+        "type":"GOLD",
+        "travelPackageId":"1",
+        "activity":[3,4,6]
+    }
+
+
+
+
+
+2. To get all package details:
+
+Arguments - None
+
+Url -> Your localhost + "/package_details"
+
+
+
+
+
+3. To get the package list with passenger name, id and capacity
+
+Arguments - None
+
+Url -> Your localhost + "/passenger_list"
+
+
+
+
+
+4. To get Customer deatils with the activitites enrolled
+
+Arguments - Form Data 
+Url -> Your localhost + "/customer_details"
+
+ Example - 
+id - 11
+
+
+
+
+5.Activity with remaining seats
+
+Arguments - None
+Url -> Your localhost + "/activities"
